@@ -1,0 +1,2 @@
+coffeelint-prefer-english-operator
+==================================
