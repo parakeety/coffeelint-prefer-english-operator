@@ -1,0 +1,9 @@
+module.exports = class EnglishOperators
+  rule:
+    name: 'english_operators'
+    description: 'This rule encourages to use english style operators.'
+    level: 'warn'
+    message: 'Use English equivalent operators. i.e)is, isnt, and, or'
+    
+  lintLine: (line, lineApi) ->
+    /[&|\||\=]{2}|\!\=/.test(line)
