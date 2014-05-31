@@ -1,4 +1,4 @@
-module.exports = class PreferEnglishOperators
+class PreferEnglishOperators
   rule:
     name: 'english_operators'
     description: 'This rule encourages to use english style operators.'
@@ -7,3 +7,6 @@ module.exports = class PreferEnglishOperators
     
   lintLine: (line, lineApi) ->
     /[&|\||\=]{2}|\!\=/.test(line)
+
+module.exports = PreferEnglishOperators
+
