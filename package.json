@@ -20,7 +20,18 @@
     "url": "https://github.com/parakeety/coffeelint-prefer-english-operator/issues"
   },
   "homepage": "https://github.com/parakeety/coffeelint-prefer-english-operator",
+  "peerDependencies": {
+    "coffeelint": "1.5.1"
+  },
   "devDependencies": {
-    "coffee-script": "~1.7.0"
+    "coffee-script": "~1.7.0",
+    "coffeelint": "1.5.1",
+    "mocha": "1.9.0",
+    "mocha-phantomjs": "2.0.1",
+    "chai": "1.6.0",
+    "gulp": "3.6.2",
+    "gulp-coffee": "^1.4.3",
+    "gulp-mocha": "^0.4.1",
+    "gulp-mocha-phantomjs": "^0.2.2"
   }
 }
