@@ -1,0 +1,23 @@
+{
+  "name": "coffeelint-prefer-english-operator",
+  "version": "0.0.1",
+  "description": "A custom coffeelint rule to prefer english style operators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parakeety/coffeelint-prefer-english-operator.git"
+  },
+  "keywords": [
+    "coffeelint",
+    "lint"
+  ],
+  "author": "Yohei Okada <yohei.states@akane.waseda.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parakeety/coffeelint-prefer-english-operator/issues"
+  },
+  "homepage": "https://github.com/parakeety/coffeelint-prefer-english-operator"
+}
