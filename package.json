@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/parakeety/coffeelint-prefer-english-operator/issues"
   },
-  "homepage": "https://github.com/parakeety/coffeelint-prefer-english-operator"
+  "homepage": "https://github.com/parakeety/coffeelint-prefer-english-operator",
+  "devDependencies": {
+    "coffee-script": "~1.7.0"
+  }
 }
