@@ -1,4 +1,4 @@
-module.exports = class EnglishOperators
+module.exports = class PreferEnglishOperators
   rule:
     name: 'english_operators'
     description: 'This rule encourages to use english style operators.'
