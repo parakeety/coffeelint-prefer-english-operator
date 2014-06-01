@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-prefer-english-operator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A custom coffeelint rule to prefer english style operators",
   "main": "index.js",
   "scripts": {
