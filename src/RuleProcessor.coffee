@@ -1,6 +1,6 @@
 class RuleProcessor
   rule:
-    name: 'prefer_english_operators'
+    name: 'prefer_english_operator'
     description: 'This rule encourages to use english style operators.'
     level: 'warn'
     message: 'Use English equivalent operators. i.e)is, isnt, and, or'
