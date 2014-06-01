@@ -1,6 +1,6 @@
-class PreferEnglishOperators
+class RuleProcessor
   rule:
-    name: 'english_operators'
+    name: 'prefer_english_operators'
     description: 'This rule encourages to use english style operators.'
     level: 'warn'
     message: 'Use English equivalent operators. i.e)is, isnt, and, or'
@@ -8,5 +8,5 @@ class PreferEnglishOperators
   lintLine: (line, lineApi) ->
     /[&|\||\=]{2}|\!\=/.test(line)
 
-module.exports = PreferEnglishOperators
+module.exports = RuleProcessor
 

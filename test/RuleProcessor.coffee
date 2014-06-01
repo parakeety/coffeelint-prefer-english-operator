@@ -1,7 +1,7 @@
 expect = require('chai').expect
 require('coffee-script/register')
 
-PreferEnglishOperators = require '../src/prefer-english-operators'
+PreferEnglishOperators = require '../src/RuleProcessor'
 
 describe 'PreferEnglishOperators', ->
   beforeEach ->
