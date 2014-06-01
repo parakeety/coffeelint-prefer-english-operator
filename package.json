@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-prefer-english-operator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A custom coffeelint rule to prefer english style operators",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "coffeelint",
-    "lint"
+    "lint",
+    "coffeelintrule",
+    "english-operator"
   ],
   "author": "Yohei Okada <yohei.states@akane.waseda.jp>",
   "license": "MIT",
