@@ -32,4 +32,3 @@ gulp.task('bump', ->
 )
 
 gulp.task('default', ['test', 'compile'])
-

@@ -1,12 +1,23 @@
-class RuleProcessor
+regexes =
+  nonEnglishOperators: /[&|\||\=]{2}|\!\=/
+
+module.exports = class RuleProcessor
   rule:
     name: 'prefer_english_operator'
-    description: 'This rule encourages to use english style operators.'
+    description: '''
+      This rule prohibits &&, ||, == and !=.
+      Use and, or, is, and isnt instead.
+      '''
     level: 'warn'
-    message: 'Use English equivalent operators. i.e)is, isnt, and, or'
-    
+    message: 'Don\'t use &&, ||, == and !='
+
   lintLine: (line, lineApi) ->
-    /[&|\||\=]{2}|\!\=/.test(line)
+    lineTokens = lineApi.getLineTokens()
 
-module.exports = RuleProcessor
-
+    for token in lineTokens
+      if token[0] in ['COMPARE', 'LOGIC']
+        location = token[2]
+        substring = line[location.first_column..location.last_column]
+        hasNonEnglishOperators = substring.match regexes.nonEnglishOperators
+        if hasNonEnglishOperators
+          return {context: "Found: #{hasNonEnglishOperators[0]}"}

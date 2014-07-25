@@ -30,4 +30,3 @@ In your `coffeelint.json`, add
 ```
 
 and run `coffeelint`
-
