@@ -49,7 +49,10 @@ describe 'PreferEnglishOperators', ->
       expect(coffeelint.lint('# 1 == 1', configError).length).to.be.not.ok
 
   describe 'Strings', ->
-    it 'should not warn when == is used in a single-line string', ->
+    it 'should not warn when == is used in a single-quote string', ->
+      expect(coffeelint.lint('\'1 == 1\'', configError).length).to.be.not.ok
+
+    it 'should not warn when == is used in a double-quote string', ->
       expect(coffeelint.lint('"1 == 1"', configError).length).to.be.not.ok
 
     it 'should not warn when == is used in a multiline string', ->
