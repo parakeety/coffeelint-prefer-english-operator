@@ -29,4 +29,3 @@ describe 'PreferEnglishOperators', ->
   describe 'english operators', ->
     it 'should not warn when english operator is used', ->
       expect(@rule.lintLine('1 is 1', null)).to.be.not.ok
-
