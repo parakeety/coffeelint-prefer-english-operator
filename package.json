@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/parakeety/coffeelint-prefer-english-operator",
   "peerDependencies": {
-    "coffeelint": "1.5.1"
+    "coffeelint": "^1"
   },
   "devDependencies": {
     "coffee-script": "~1.7.0",
