@@ -1,4 +1,4 @@
-# coffeelint-prefer-english-operator
+#[DEPRECATED] coffeelint-prefer-english-operator
 ==================================
 
 ** [This custom rule has been merged into coffeelint](https://github.com/clutchski/coffeelint/commit/d028c4e6e4c652d7816e54b1d41849de53481368) ** 
